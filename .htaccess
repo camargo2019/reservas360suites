@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ RewriteRule ^([A-Za-z0-9-_%=]+)$ index.php?pg=$1 [NC,L]
+ RewriteRule ^([A-Za-z0-9-_%=]+)\/([A-Za-z0-9-_%=]+)$ index.php?pg=$1&pga=$2 [NC,L]
+ RewriteRule ^([A-Za-z0-9-_%=]+)\/([A-Za-z0-9-_%=]+)\/([A-Za-z0-9-_%=]+)$ index.php?pg=$1&pga=$2&pgp=$3 [NC,L]
+ RewriteRule ^([A-Za-z0-9-_%=]+)\/([A-Za-z0-9-_%=]+)\/([A-Za-z0-9-_%=]+)\/([A-Za-z0-9-_%=]+)$ index.php?pg=$1&pga=$2&pgp=$3&pgo=$4 [NC,L]
+</IfModule> 
