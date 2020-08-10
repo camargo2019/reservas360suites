@@ -1,6 +1,11 @@
 ### Sistema de 360 Suites
 
-[![Build Status]
+(Atenção) não nós responsabilizamos pelo mau uso do programador que ira editar ou fazer futuras alterações no sistema.
+
+Informamos que a única garantia ou correção será feita através do Salvianos Soluções IT.
+
+Após a finalização da garantia de correção da Salvianos Soluções nós não iremos editar ou até mesmo dar suporte nestes arquivos.
+
 
 ### Configuração do Sistema
 
